@@ -1,5 +1,5 @@
 # ocr_dataset
-This dataset, focused on evaluation of document layout analysis and OCR, has been created as part of I-Assistant project funded by Microsoft's AI for Accessibility program. This contains 98 documents that have been categorized on the basis of their column structure (single column vs multi column)  and page content (figures, math, tables or plain text)  
+This dataset, focused on evaluation of document layout analysis and OCR, has been created by a semi supervised approach as part of I-Assistant project funded by Microsoft's AI for Accessibility program. This contains 98 documents that have been categorized on the basis of their column structure (single column vs multi column)  and page content (figures, math, tables or plain text)  
 The annotation folder contains jsons with keys
 1. multicolumn - Boolean indicates if the doc has multicolumn or single column layout.
 2. figures - a list of all the bounding boxes of the images present on that page, if any.
